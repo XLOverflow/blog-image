@@ -1,4 +1,4 @@
-# CS336 Lecture 5 (GPUs) 笔记配图
+# CS336 Lecture 5 (GPUs) note figures
 
-- 01, 02, 05, 06, 08, 11, 13, 14, 16, 18：取自课程 slides（Stanford CS336 Spring 2026, Lecture 5），原始出处见 slides 中的引用。
-- 04, 07, 10, 12, 15, 17：自绘，脚本在 `src/`。重新生成：`cd src && python3 fig_xxx.py`（需要 matplotlib 和中文字体 WenQuanYi Zen Hei）。
+- All figures except `17-online-softmax-example.png` are taken from the course slides (Stanford CS336 Spring 2026, Lecture 5); original sources are cited on the slides.
+- `17-online-softmax-example.png` is drawn by `src/fig_online_softmax.py` (matplotlib, English labels so the same image serves both language versions).

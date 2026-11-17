@@ -1,0 +1,3 @@
+Two-panel schematic, side by side. Each panel is a plain 2D area with a black dot labeled 'x' on the left side.
+Panel (a) 'Deterministic Euler step': one straight blue arrow from 'x' to a single blue dot labeled 'x_next = x + v dt'. Below the arrow the text 'one outcome, no probability'.
+Panel (b) 'SDE step': the same black dot 'x'. A dashed gray arrow goes from 'x' to a small black cross labeled 'mean'. Centered on the cross are three concentric light orange circles representing a Gaussian, labeled 'Gaussian around the mean'. One orange dot lies inside the circles but away from the cross, labeled 'sampled x_next'. A thin solid line connects the cross to the orange dot, labeled 'std x noise'. Below the panel the text 'many outcomes, log-prob is defined'.

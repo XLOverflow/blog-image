@@ -1,0 +1,8 @@
+A cycle of six boxes arranged clockwise in a ring, numbered 1 to 6, with one arrow from each box to the next and one arrow from box 6 back to box 1. Each box has a bold first line and a smaller second line.
+Box 1: 'Prompts' / '48 prompts x 16 noise seeds'.
+Box 2: 'Rollout' / '16 denoising steps, 2 are SDE steps'.
+Box 3: 'Decode and score' / 'VAE, then PickScore'.
+Box 4: 'Advantage' / 'score minus group mean'.
+Box 5: 'Replay the 2 SDE steps' / 'recompute log-prob'.
+Box 6: 'Update LoRA' / 'one optimizer step'.
+Boxes 2, 5 and 6 have a light blue fill; boxes 1, 3 and 4 are white. A small legend at the bottom: a light blue square followed by the text 'runs the 16B model'.
